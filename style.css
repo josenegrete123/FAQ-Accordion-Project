@@ -12,6 +12,15 @@
     --weight-700: 700;
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 1em; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 .body-image {
     content: url("./assets/images/background-pattern-desktop.svg");
     width: auto;
@@ -30,4 +39,23 @@ body {
     font-size: var(--paragraph-font-size);
 
     background: var(--light-pink);
+}
+
+@media (max-width: 375px) {
+    .body-image {
+        content: url("./assets/images/background-pattern-mobile.svg");
+        width: auto;
+        height: 232px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    body {
+        width: auto;
+        height: 812px;
+        position: relative;
+
+        background: var(--light-pink);
+    }
 }
