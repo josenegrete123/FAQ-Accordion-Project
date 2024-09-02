@@ -15,7 +15,7 @@
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    margin-top: 10em; 
+    color: var(--dark-purple);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -31,15 +31,9 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: auto;
     height: 900px;
     position: relative;
-
-    font-family: "Work Sans";
-    font-size: var(--paragraph-font-size);
 
     background: var(--light-pink);
 }
