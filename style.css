@@ -67,7 +67,7 @@ body {
     padding: 40px;
     gap: 32px;
 
-    width: auto;
+    width: 600px;
     height: auto;
 
     background: var(--white);
@@ -151,7 +151,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    gap: 177px;
 
     width: 520px;
     height: 30px;
@@ -173,6 +172,19 @@ summary:hover {
 summary:focus {
     color: #AD28EB;
 }
+
+summary {
+    margin: 0 auto;
+
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: var(--dark-purple);
+}
+
 /* For mobile style */
 @media (max-width: 375px) {
     .body-image {
@@ -303,9 +315,18 @@ summary:focus {
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        gap: 24px;
 
         width: 279px;
         height: 38px;
+    }
+
+    summary {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: var(--dark-purple);
     }
 }
