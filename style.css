@@ -12,7 +12,22 @@
     --weight-700: 700;
 }
 
+.body-image {
+    content: url("./assets/images/background-pattern-desktop.svg");
+    width: auto;
+    height: 320px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
 body {
+    width: auto;
+    height: 900px;
+    position: relative;
+
     font-family: "Work Sans";
     font-size: var(--paragraph-font-size);
+
+    background: var(--light-pink);
 }
