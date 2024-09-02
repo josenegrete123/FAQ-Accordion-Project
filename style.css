@@ -149,6 +149,7 @@ body {
 
     width: 520px;
     height: 30px;
+    list-style: none;
 }
 
 summary::after {
@@ -321,6 +322,7 @@ summary {
 
         width: 279px;
         height: 38px;
+        list-style: none;
     }
 
     summary {
