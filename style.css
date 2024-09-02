@@ -145,6 +145,26 @@ body {
     background: var(--light-pink);
 }
 
+.card__details__body > summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 177px;
+
+    width: 520px;
+    height: 30px;
+}
+
+summary::after {
+    content: url("./assets/images/icon-plus.svg");
+}
+
+details[open] summary:after {
+    content: url("./assets/images/icon-minus.svg");
+}
+
 /* For mobile style */
 @media (max-width: 375px) {
     .body-image {
@@ -268,5 +288,16 @@ body {
         height: 1px;
 
         background: var(--light-pink);
+    }
+
+    .card__details__body > summary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+        width: 279px;
+        height: 38px;
     }
 }
