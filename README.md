@@ -14,7 +14,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -36,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://josenegrete123.github.io/FAQ-Accordion-Project/)
 
 ## My process
 
@@ -45,61 +44,41 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Main thing I learned was using the @media in CSS for the mobile portion of the challenge. Also learned how to use the details html as well as how to manipulate the marker. 
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<details class="card__details__body">
+            <summary>What is Frontend Mentor, and how will it help me?</summary>
+            <p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+              all levels and ideal for portfolio building.</p>
+</details>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media (max-width: 375px) {
+    .body-image {
+        content: url("./assets/images/background-pattern-mobile.svg");
+        width: auto;
+        height: 232px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For the future I want to learn better on how to use the @media CSS and also which code to include and exclude inside of there. Also would like to try using JavaScript.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Make Summary HTML into a Flexbox](https://stackoverflow.com/questions/40207061/flexbox-doesnt-work-in-summary-tag) - This helped me create a flexbox with the summary tag, which in turn helped me create the marker at the end.
+- [CSS Media Query](https://www.youtube.com/watch?v=yU7jJ3NbPdA) - This video helped me understand how to use the @media in CSS and how to implement it to have different dimensions for mobile users.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Jose Negrete](https://github.com/josenegrete123)
+- Frontend Mentor - [@josenegrete123](https://www.frontendmentor.io/profile/josenegrete123)
