@@ -31,9 +31,10 @@
 }
 
 body {
-    width: auto;
+    width: 1440px;
     height: 900px;
     position: relative;
+    margin: auto;
 
     background: var(--light-pink);
 }
@@ -201,12 +202,10 @@ summary {
     }
 
     body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
+        width: 375px;
         height: 812px;
         position: relative;
+        margin: auto;
 
         background: var(--light-pink);
     }
