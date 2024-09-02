@@ -138,6 +138,13 @@ body {
     flex-grow: 0;
 }
 
+.style-line {
+    width: 520px;
+    height: 1px;
+
+    background: var(--light-pink);
+}
+
 /* For mobile style */
 @media (max-width: 375px) {
     .body-image {
@@ -254,5 +261,12 @@ body {
         order: 1;
         align-self: stretch;
         flex-grow: 0;
+    }
+
+    .style-line {
+        width: 279px;
+        height: 1px;
+
+        background: var(--light-pink);
     }
 }
