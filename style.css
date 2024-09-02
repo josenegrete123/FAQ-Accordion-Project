@@ -185,6 +185,16 @@ summary {
     color: var(--dark-purple);
 }
 
+.card__details__body p {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--grayish-purple);
+}
+
 /* For mobile style */
 @media (max-width: 375px) {
     .body-image {
@@ -328,5 +338,15 @@ summary {
         line-height: 19px;
 
         color: var(--dark-purple);
+    }
+
+    .card__details__body p {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+
+        color: var(--grayish-purple);
     }
 }
