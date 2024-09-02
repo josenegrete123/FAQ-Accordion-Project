@@ -31,8 +31,12 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: auto;
     height: 900px;
+    min-height: 100vh;
     position: relative;
 
     font-family: "Work Sans";
@@ -52,8 +56,12 @@ body {
     }
 
     body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: auto;
         height: 812px;
+        min-height: 100vh;
         position: relative;
 
         background: var(--light-pink);
